@@ -63,7 +63,7 @@ The lab simulates a real-world enterprise identity architecture where identities
 1. [Azure AD Connect Installed Successfully](screenshots/microsoft-ad-connect-installed.png)  
    *Confirms successful deployment of Azure AD Connect and hybrid identity integration.*
 
-2. [Users Synced to Microsoft Entra ID](screenshots/users-synced-to-entraId.png)  
+2. [Users Synced to Microsoft Entra ID](screenshots/users-synced-to-entraid.png)  
    *Demonstrates on-prem Active Directory users synchronized to the cloud with correct UPNs.*
 
 3. [Sign-In Log — MFA Success](screenshots/sign-in-MFA-log.png)  
