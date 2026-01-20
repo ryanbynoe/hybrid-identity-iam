@@ -36,7 +36,7 @@ The lab simulates a real-world enterprise identity architecture where identities
               │ Identity Sync
               │ (Password Hash Sync)
 ┌─────────────┴──────────────┐
-│      Azure AD Connect      │
+│    Azure AD Connect        │
 │  • Initial Sync            │
 │  • Delta Sync              │
 │  • Scheduler               │
