@@ -18,6 +18,7 @@ The lab simulates a real-world enterprise identity architecture where identities
 
 ## 🏗 Architecture Overview
 
+```text
 ┌────────────────────────────┐
 │          End User          │
 │     Password + MFA Login   │
@@ -28,7 +29,7 @@ The lab simulates a real-world enterprise identity architecture where identities
 │     Microsoft Entra ID     │
 │  • Authentication          │
 │  • MFA Enforcement         │
-│  • Conditional Access     │
+│  • Conditional Access      │
 │  • Sign-In Logs            │
 │  • Audit Logs              │
 └─────────────▲──────────────┘
@@ -49,7 +50,7 @@ The lab simulates a real-world enterprise identity architecture where identities
 │  • Users / Groups / OUs    │
 │  • PowerShell Automation   │
 └────────────────────────────┘
-
+```
 
 
 - Active Directory serves as the authoritative identity source
