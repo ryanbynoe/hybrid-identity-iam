@@ -249,3 +249,54 @@ The lab simulates a real-world enterprise identity architecture where identities
 - IAM monitoring and audit analysis
 - PowerShell automation
 
+---
+
+## 🚀 Future IAM Lab Enhancements (Roadmap)
+
+The following checklist outlines planned extensions to this project to deepen IAM capabilities and align with enterprise identity requirements.
+
+### 🔐 Authentication & Federation
+- [ ] Implement **SAML-based Single Sign-On (SSO)** for a SaaS application  
+  *Skills: SAML, federation, claims mapping, SaaS integration*
+- [ ] Configure **OAuth 2.0 / OpenID Connect (OIDC)** application authentication  
+  *Skills: OAuth flows, token-based authentication, modern identity protocols*
+
+### 🛡 Access Control & Zero Trust
+- [x] Create **Conditional Access policies** (MFA enforcement, legacy auth blocking)  
+  *Skills: Conditional Access, Zero Trust principles*
+- [ ] Implement **Privileged Identity Management (PIM)** with just-in-time role elevation  
+  *Skills: Privileged access, least privilege, role lifecycle management*
+
+### 🔁 Identity Governance (IGA)
+- [ ] Configure **Access Reviews** for groups and privileged roles  
+  *Skills: Identity governance, compliance, access certification*
+- [ ] Simulate **joiner / mover / leaver** identity lifecycle workflows  
+  *Skills: IGA processes, lifecycle management*
+
+### 🤖 Automation & Provisioning
+- [ ] Extend automation to **CSV- or HR-driven user provisioning**  
+  *Skills: Identity lifecycle automation, data-driven provisioning*
+- [ ] Integrate **Microsoft Graph API** for cloud-based identity automation  
+  *Skills: API-based IAM automation*
+
+### 👑 Non-Human & Service Identities
+- [ ] Implement **service accounts / app registrations** with scoped permissions  
+  *Skills: Non-human identities, credential management*
+- [ ] Manage **secrets and certificates** for applications securely  
+  *Skills: Credential lifecycle, security best practices*
+
+### 📊 Monitoring, Troubleshooting & Incidents
+- [ ] Simulate and document **authentication failures** (MFA, sync, token issues)  
+  *Skills: IAM troubleshooting, root cause analysis*
+- [ ] Create **incident-style investigations** using Entra ID logs  
+  *Skills: Log analysis, IAM incident response*
+
+### 🔐 PKI & Advanced Security (Optional)
+- [ ] Deploy **Active Directory Certificate Services (AD CS)**  
+  *Skills: PKI, certificates, SSL/TLS*
+- [ ] Implement **certificate-based authentication** scenarios  
+  *Skills: Digital trust, strong authentication*
+
+---
+
+*This roadmap reflects a structured approach to expanding IAM expertise, covering authentication protocols, access control, governance, automation, and security monitoring commonly required in enterprise environments.*
