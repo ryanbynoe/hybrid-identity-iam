@@ -260,7 +260,7 @@ The following checklist outlines planned extensions to this project to deepen IA
   *Skills: OAuth flows, token-based authentication, modern identity protocols*
 
 ### 🛡 Access Control & Zero Trust
-- [ ] Create **Conditional Access policies** (MFA enforcement, legacy auth blocking)  
+- [x] Create **Conditional Access policies** (MFA enforcement, legacy auth blocking)  
   *Skills: Conditional Access, Zero Trust principles*
 - [ ] Implement **Privileged Identity Management (PIM)** with just-in-time role elevation  
   *Skills: Privileged access, least privilege, role lifecycle management*
