@@ -1,0 +1,69 @@
+Create a PowerShell script for a Windows Server Active Directory lab with the following requirements:
+
+Environment:
+- Active Directory Domain Services already installed
+- Domain: corp.kalytpon.com
+- UPN/email suffix: kalytpon.com
+- Script will be run as Domain Admin on the Domain Controller
+- ActiveDirectory PowerShell module available
+
+Objectives:
+1. Create an Organizational Unit (OU) hierarchy for a lab named "Kalypton.Universe"
+2. Use superhero-themed names for OUs and groups, but keep them realistic and relevant to Active Directory
+3. Create security groups and users based on Marvel and DC characters (using their real civilian names)
+
+OU Requirements:
+- Root OU: Kalypton.Universe
+- Under Kalypton.Universe:
+  - OU-Marvel-Operations
+    - Users
+    - Admins
+  - OU-DC-Operations
+    - Users
+    - Admins
+  - Groups (for all security groups)
+
+Group Requirements:
+- Create Global Security Groups:
+  - SG-HERO-Marvel-Users
+  - SG-HERO-Marvel-Admins
+  - SG-HERO-DC-Users
+  - SG-HERO-DC-Admins
+- Place all groups in the "Groups" OU
+- Use clear descriptions for each group
+
+User Requirements:
+- Create users using real civilian names of Marvel and DC characters
+- Username format (samAccountName and UPN prefix): firstname.lastname (lowercase)
+- UPN/email format: firstname.lastname@kalytpon.com
+- All users use the same password: GreatWhite!
+- PasswordNeverExpires = True
+- CannotChangePassword = True
+- Accounts must be enabled at creation
+- Handle the 20-character samAccountName limit safely
+- Skip user creation if the user already exists
+
+Group Membership:
+- Marvel users added to SG-HERO-Marvel-Users
+- Marvel admins added to SG-HERO-Marvel-Admins
+- DC users added to SG-HERO-DC-Users
+- DC admins added to SG-HERO-DC-Admins
+
+Script Behavior & Output:
+- Explicitly print output for each action:
+  - OU created or already exists
+  - Group created or already exists
+  - Each user created (name, UPN, OU, group membership)
+  - Users skipped if they already exist
+- Use readable, labeled console output suitable for screenshots
+- Avoid silent failures
+
+Best Practices:
+- Use functions for OU creation, group creation, and user creation
+- Protect OUs from accidental deletion
+- Ensure the UPN suffix kalytpon.com exists in Active Directory
+- Use clear variable names and comments
+- Make the script idempotent (safe to run multiple times)
+
+Deliverable:
+- A single, complete PowerShell script ready to paste and run

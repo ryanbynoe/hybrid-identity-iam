@@ -235,6 +235,8 @@ The lab simulates a real-world enterprise identity architecture where identities
 - Automation improves consistency and reduces human error
 - IAM monitoring is as important as configuration
 - Confirm policies are enabled instead of "Report Only"
+- During teardown, on-prem Active Directory objects were removed successfully; however, Azure AD Connect export deletion protection prevented automatic removal of cloud identities after large-scale OU deletion. Remaining Entra ID objects were manually cleaned up, reflecting standard decommissioning procedures when hybrid sync scope changes.
+
 
 ---
 
