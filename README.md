@@ -251,6 +251,22 @@ The lab simulates a real-world enterprise identity architecture where identities
 
 ---
 
+📈 Lab Scale & Enhancements
+
+## This lab was expanded beyond basic hybrid identity demonstrations to reflect enterprise-scale identity operations:
+
+- 750 unique user accounts (validated, no duplicates)
+- 60+ Organizational Units (OUs) with hierarchical structure
+- 150+ security groups supporting role-based access models
+- Automatic domain DN detection (no hardcoded LDAP paths)
+- Microsoft Entra ID sync awareness built into teardown logic
+- Comprehensive error handling with safe exits and validation
+- Progress tracking and structured logging for long-running scripts
+- Reusable prompt templates for custom user and OU generation
+- Complete documentation suite supporting rebuild and review
+
+---
+
 ## 🚀 Future IAM Lab Enhancements (Roadmap)
 
 The following checklist outlines planned extensions to this project to deepen IAM capabilities and align with enterprise identity requirements.
