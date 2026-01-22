@@ -274,8 +274,8 @@ The following checklist outlines planned extensions to this project to deepen IA
 ### 🔐 Authentication & Federation
 - [x] Implement **SAML-based Single Sign-On (SSO)** for a SaaS application - completed 1/22/26   
   *Skills: SAML, federation, claims mapping, SaaS integration*
-- [ ] Configure **OAuth 2.0 / OpenID Connect (OIDC)** application authentication  
-  *Skills: OAuth flows, token-based authentication, modern identity protocols*
+- [x] Configure **OAuth 2.0 / OpenID Connect (OIDC)** application authentication  
+  *Skills: OAuth flows, token-based authentication, modern identity protocols* - completed 1/22/26
 
 ### 🛡 Access Control & Zero Trust
 - [x] Create **Conditional Access policies** (MFA enforcement, legacy auth blocking) completed 1/21/26  
