@@ -48,7 +48,7 @@
 ![Before](screenshots/before.png)
 
 ### After Authentication
-![Before](screenshots/after.png)
+![After](screenshots/after.png)
 
 ### Microsoft Graph API Integration
 ![Microsofy Graph API](screenshots/graphapi.png)
