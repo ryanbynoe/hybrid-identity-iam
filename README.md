@@ -272,15 +272,15 @@ The lab simulates a real-world enterprise identity architecture where identities
 The following checklist outlines planned extensions to this project to deepen IAM capabilities and align with enterprise identity requirements.
 
 ### 🔐 Authentication & Federation
-- [x] Implement **[SAML-based Single Sign-On (SSO)](https://github.com/ryanbynoe/hybrid-identity-iam/blob/main/enhancements/OauthOIDC/Oauth.md)** for a SaaS application - completed 1/22/26   
+- [x] Implement **SAML-based Single Sign-On (SSO)** for a SaaS application - completed 1/22/26   
   *Skills: SAML, federation, claims mapping, SaaS integration*
-- [x] Configure **OAuth 2.0 / OpenID Connect (OIDC)** application authentication  
+- [x] Configure **[OAuth 2.0 / OpenID Connect (OIDC)](https://github.com/ryanbynoe/hybrid-identity-iam/blob/main/enhancements/OauthOIDC/Oauth.md)** application authentication  
   *Skills: OAuth flows, token-based authentication, modern identity protocols* - completed 1/22/26
 
 ### 🛡 Access Control & Zero Trust
 - [x] Create **Conditional Access policies** (MFA enforcement, legacy auth blocking) completed 1/21/26  
   *Skills: Conditional Access, Zero Trust principles*
-- [ ] Implement **Privileged Identity Management (PIM)** with just-in-time role elevation  
+- [x] Implement **Privileged Identity Management (PIM)** with just-in-time role elevation - completed 1/22/26
   *Skills: Privileged access, least privilege, role lifecycle management*
 
 ### 🔁 Identity Governance (IGA)
